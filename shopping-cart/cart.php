@@ -53,7 +53,7 @@ if (isset($_POST['remove'])) {
                     <?php
 
                     $total = 0;
-                    $con = mysqli_connect("localhost", "root", "God4Success!", "newdb");
+                    $con = mysqli_connect("localhost", "root", "", "newdb");
 
                     // Check if the connection was successful
                     if (mysqli_connect_errno()) {
